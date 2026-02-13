@@ -1,1 +1,0 @@
-# SeatN-Sync
