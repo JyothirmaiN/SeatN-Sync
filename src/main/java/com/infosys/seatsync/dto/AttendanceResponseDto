@@ -1,33 +1,31 @@
 package com.infosys.seatsync.dto;
 public class AttendanceResponseDto {
-private String status;
-private Instant timeStamp;
-private String message;
 
+    private String status;
+    private Instant timestamp;
+    private String message;
 
-public String getStatus()
-{
-return status;
-}
+    public String getStatus() {
+        return status;
+    }
 
-public String setStatus(string status)
-{
-this.status=status;
-}
-public Instant getTimeStamp()
-{
-return timeStamp;
-}
-public Instant setTimeStamp(Instant timeStamp)
-{
-this.timeStamp=timeStamp;
-}
-public String getMessage()
-{
-return message;
-}
-public String setMessage( String message)
-{
-this.message=message;
-}
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Instant getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Instant timestamp) {
+        this.timestamp = timestamp;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }
