@@ -1,4 +1,6 @@
 package com.infosys.seatsync.dto;
+
+import java.time.Instant;
 public class AttendanceResponseDto {
 
     private String status;
